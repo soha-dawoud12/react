@@ -1,0 +1,113 @@
+:root {
+    --bg-color: #fcfcfc;
+    --primary-color: #ffad12;
+    --light-primary-color: #FABF43;
+    --secoundry-color: #989898;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'gess-light', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'gess-bold', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a,
+.btn {
+    font-family: 'gess-medium', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--primary-color);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--secoundry-color);
+}
+
+.mw-340 {
+    max-width: 340px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.btn-primary {
+    padding: 5px 15px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 6px 10px 0 var(--light-primary-color);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 3px 5px 0 var(--light-primary-color);
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem var(--light-primary-color);
+}
+
+.h-80vh {
+    min-height: 80vh;
+}
+.btn-gray{
+    height:38px ;
+    background-color: #E5E7F0;border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0 !important;
+}
+.nav-link.nav-form{
+    color:#BBBBBB !important;
+    padding: .22rem .3rem !important;
+}
+.forms{
+    border-radius: 10px ;border: 2px solid #eee;margin-top: -20%
+}
+.forms h3{
+    font-weight: normal;
+    color: #515C6E;
+}
+.forms .img-forms{
+
+   position: absolute ; bottom: 25px ;left: 25px;
+}
+.forms form{
+    width: 70%;
+    margin: auto;
+}
+.forms form input{
+   background-color:#F2F3F8;
+}
+.forms form i{
+   color:#BBBBBB ;
+}
